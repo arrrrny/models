@@ -280,6 +280,7 @@
         "dynamic_allowed": true,
         "levels": [
           "low",
+          "medium",
           "high"
         ]
       }
@@ -554,6 +555,7 @@
         "dynamic_allowed": true,
         "levels": [
           "low",
+          "medium",
           "high"
         ]
       }
@@ -840,6 +842,7 @@
         "dynamic_allowed": true,
         "levels": [
           "low",
+          "medium",
           "high"
         ]
       }
@@ -1023,7 +1026,12 @@
       "thinking": {
         "min": 128,
         "max": 32768,
-        "dynamic_allowed": true
+        "dynamic_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
       }
     },
     {
@@ -2645,11 +2653,12 @@
       "context_length": 1048576,
       "max_completion_tokens": 65535,
       "thinking": {
-        "min": 128,
-        "max": 32768,
+        "min": 1,
+        "max": 65535,
         "dynamic_allowed": true,
         "levels": [
           "low",
+          "medium",
           "high"
         ]
       }
@@ -2665,11 +2674,12 @@
       "context_length": 1048576,
       "max_completion_tokens": 65535,
       "thinking": {
-        "min": 128,
-        "max": 32768,
+        "min": 1,
+        "max": 65535,
         "dynamic_allowed": true,
         "levels": [
           "low",
+          "medium",
           "high"
         ]
       }
