@@ -610,6 +610,8 @@
         "dynamic_allowed": true,
         "levels": [
           "minimal",
+          "low",
+          "medium",
           "high"
         ]
       }
@@ -896,6 +898,8 @@
         "dynamic_allowed": true,
         "levels": [
           "minimal",
+          "low",
+          "medium",
           "high"
         ]
       }
@@ -1070,6 +1074,8 @@
         "dynamic_allowed": true,
         "levels": [
           "minimal",
+          "low",
+          "medium",
           "high"
         ]
       }
